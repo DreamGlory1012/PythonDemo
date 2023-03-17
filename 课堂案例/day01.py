@@ -9,7 +9,7 @@
 
 class Father(object):
 
-    def __init__(self,name,gender):
+    def __init__(self, name, gender):
         self.name = "男"  # 方法
         self.gender = '王'
 
@@ -25,6 +25,7 @@ class Father(object):
     def a(self):
         print("12")
 
+
 # 2.定义一个子类、继承自父类
 class Son(Father):
     pass
@@ -36,20 +37,26 @@ class Son(Father):
 # son.run()
 
 class Person(object):
-    def __init__(self,name,gender):
-        self.name =name
-        self.gender =gender
-        print("Person类__init__()。", "姓名：",self.name)
+    def __init__(self, name, gender):
+        self.name = name
+        self.gender = gender
+        print("Person类__init__()。", "姓名：", self.name)
+
     def a(self):
         print("111")
-class Student(Person,Father):
-    def __init__(self,name,gender,score):
+
+
+class Student(Person, Father):
+    def __init__(self, name, gender, score):
         pass
+
     def a(self):
         super(Person, self).a()
         super(Student, self).a()
         super().a()
         Father.a(self)
-stu = Student("A",'V',12)
+
+
+stu = Student("A", 'V', 12)
 stu.a()
 print(Student.__mro__)

@@ -1,0 +1,12 @@
+2023-03-20 20:19:15,521-[INFO] - main.py[20]:info message
+2023-03-20 20:21:29,688-[INFO] - main.py[21]:info message
+2023-03-20 20:21:29,689-[DEBUG] - main.py[22]:debug message
+2023-03-20 20:21:29,689-[ERROR] - main.py[23]:error message
+2023-03-20 20:21:29,689-[CRITICAL] - main.py[24]:fatal message
+2023-03-20 20:21:29,689-[WARNING] - main.py[25]:warning message
+2023-03-20 20:21:29,689-[WARNING] - main.py[26]:warn message
+2023-03-20 20:21:38,331-[INFO] - main.py[21]:info message
+2023-03-20 20:21:38,331-[DEBUG] - main.py[22]:debug message
+2023-03-20 20:21:38,331-[ERROR] - main.py[23]:error message
+2023-03-20 20:21:38,331-[CRITICAL] - main.py[24]:fatal message
+2023-03-20 20:21:38,332-[WARNING] - main.py[25]:warning message
